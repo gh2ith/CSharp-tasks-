@@ -14,7 +14,7 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
             Console.WriteLine("Enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter your Grade: ");
+            Console.WriteLine("Enter your Grade : ");
             double grade = double.Parse(Console.ReadLine());
             Console.WriteLine("Enter your Average: ");
             double average   = double.Parse(Console.ReadLine());
