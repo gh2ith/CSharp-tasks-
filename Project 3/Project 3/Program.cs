@@ -59,32 +59,69 @@ namespace Project_3
 
             string[] students = { "John", "Jane", "Bob", "Alice", "Tom" };
 
-            foreach (string student in students)
-            {
-                Console.WriteLine(student);
-            }
-            int[] grade = { 85, 90, 78, 92, 88 };
-            Console.WriteLine("g");
-            foreach (int grades in grade)
-            {
-                Console.WriteLine($"Grade: {grades}");
-            }
-
-            Console.WriteLine("\nEnter Student name you wanna search for:");
-            string name = Console.ReadLine();
             while (true)
             {
-                if (students.Contains(name))
+                Console.WriteLine("===== School System =====");
+                Console.WriteLine("1. Display Students\n2. Search for Student\n3. Check Student Result\n4. Exit");
+                int menuChoice = int.Parse(Console.ReadLine());
+
+                switch (menuChoice)
                 {
-                    Console.WriteLine($"Student {name} found.");
-                    break;
+                    case 1:
+                        Console.WriteLine("Students:");
+                        foreach (string student in students)
+                        {
+                            Console.WriteLine(student);
+                        }
+                        break;
+                    case 2:
+                        Console.WriteLine("Enter Student name you wanna search for:");
+                        string searchName = Console.ReadLine();
+                        while (!students.Contains(searchName))
+                        {
+                            Console.WriteLine("Student not found. Please try again.");
+                            searchName = Console.ReadLine();
+                        }
+                        Console.WriteLine($"Student {searchName} found.");
+                        break;
+                    case 3:
+                        Console.WriteLine("Enter the grade for the student:");
+                        int studentGrade = int.Parse(Console.ReadLine());
+                        if (studentGrade >= 90)
+                        {
+                            Console.WriteLine("Grade: A");
+                            break;
+                        }
+                        else if (studentGrade >= 80)
+                        {
+                            Console.WriteLine("Grade: B");
+                            break;
+                        }
+                        else if (studentGrade >= 70)
+                        {
+                            Console.WriteLine("Grade: C");
+                            break;
+                        }
+                        else if (studentGrade >= 60)
+                        {
+                            Console.WriteLine("Grade: D");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Grade: F");
+                            break;
+                        }
+                    case 4:
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
                 }
-                else
-                {
-                    Console.WriteLine($"Student {name} not found. Please enter a valid name:");
-                    name = Console.ReadLine();
-                }
+            }
+
+
             }
         }
     }
-}
