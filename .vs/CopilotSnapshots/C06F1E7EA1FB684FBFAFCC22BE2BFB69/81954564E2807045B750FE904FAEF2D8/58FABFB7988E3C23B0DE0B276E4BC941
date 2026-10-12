@@ -1,0 +1,122 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Project_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Random random = new Random();
+            int number = random.Next(50, 56);
+            Console.WriteLine("Guess the number between 50 and 55.");
+            int gueessedNumber = int.Parse(Console.ReadLine());
+            int counter = 1;
+            int points = 0;
+            while (gueessedNumber != number)
+            {
+                if (gueessedNumber < number)
+                {
+                    Console.WriteLine("The number is higher than your guess. Try again.");
+                    gueessedNumber = int.Parse(Console.ReadLine());
+                    counter++;
+                }
+                else
+                {
+                    Console.WriteLine("The number is lower than your guess. Try again.");
+                    gueessedNumber = int.Parse(Console.ReadLine());
+                    counter++;
+                }
+            }
+            switch (counter)
+            {
+                case 1:
+                    points = points + 10;
+                    break;
+
+                case 2:
+                    points = points + 7;
+
+                    break;
+
+                case 3:
+                    points = points + 5;
+
+                    break;
+
+                default:
+                    points = 0;
+                    break;
+            }
+            Console.WriteLine("Congratulations! You guessed the number.");
+            Console.WriteLine($"\nIt took you {counter} tries. you scored {points} points.");
+
+
+            string[] students = { "John", "Jane", "Bob", "Alice", "Tom" };
+
+            Console.WriteLine("===== School System =====");
+            Console.WriteLine("1. Display Students\n2. Search for Student\n 3. Check Student Result \n4. Exit");
+            int menuChoice = int.Parse(Console.ReadLine());
+            Switch(menuChoice)
+                {
+                    case 1:
+                    Console.WriteLine("Students:");
+                    foreach (string student in students)
+                    {
+                        Console.WriteLine(student);
+                    }
+                    break;
+                case 2:
+                    Console.WriteLine("Enter Student name you wanna search for:");
+                    string searchName = Console.ReadLine();
+                    if (students.Contains(searchName))
+                    {
+                        Console.WriteLine($"Student {searchName} found.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Student {searchName} not found.");
+                    }
+                    break;
+                case 3:
+                    Console.WriteLine("Enter the grade for the student:");
+                    int studentGrade = int.Parse(Console.ReadLine());
+                    if (studentGrade >= 90)
+                    {
+                        Console.WriteLine("Grade: A");
+                    }
+                    else if (studentGrade >= 80)
+                    {
+                        Console.WriteLine("Grade: B");
+                    }
+                    else if (studentGrade >= 70)
+                    {
+                        Console.WriteLine("Grade: C");
+                    }
+                    else if (studentGrade >= 60)
+                    {
+                        Console.WriteLine("Grade: D");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Grade: F");
+                    }
+                    break;
+                case 4:
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+                }
+
+
+
+            }
+        }
+    }

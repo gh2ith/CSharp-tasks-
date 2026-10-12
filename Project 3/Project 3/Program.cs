@@ -113,7 +113,7 @@ namespace Project_3
                             break;
                         }
                     case 4:
-                        Environment.Exit(0);
+                        return;
                         break;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
