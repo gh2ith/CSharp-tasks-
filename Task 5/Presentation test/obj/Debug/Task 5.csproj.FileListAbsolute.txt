@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\bin\Debug\Presentation test.exe.config
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\bin\Debug\Presentation test.exe
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\bin\Debug\Presentation test.pdb
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\obj\Debug\Task 5.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\obj\Debug\Task 5.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\obj\Debug\Presentation test.exe
+C:\Users\user\Desktop\CSharp_tasks\Presentation test\Presentation test\obj\Debug\Presentation test.pdb

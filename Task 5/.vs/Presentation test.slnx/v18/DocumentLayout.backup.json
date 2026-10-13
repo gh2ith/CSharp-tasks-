@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|c:\\users\\user\\desktop\\csharp_tasks\\presentation test\\presentation test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|solutionrelative:presentation test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|c:\\users\\user\\desktop\\csharp_tasks\\presentation test\\presentation test\\schoolreport .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|solutionrelative:presentation test\\schoolreport .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|c:\\users\\user\\desktop\\csharp_tasks\\presentation test\\presentation test\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|solutionrelative:presentation test\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|c:\\users\\user\\desktop\\csharp_tasks\\presentation test\\presentation test\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|solutionrelative:presentation test\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|c:\\users\\user\\desktop\\csharp_tasks\\presentation test\\presentation test\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCFB500-D729-4CF5-902B-F432BFA7DBE9}|Presentation test\\Presentation test.csproj|solutionrelative:presentation test\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolReport .cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\SchoolReport .cs",
+              "RelativeDocumentMoniker": "Presentation test\\SchoolReport .cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\SchoolReport .cs",
+              "RelativeToolTip": "Presentation test\\SchoolReport .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T11:46:28.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation test\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\Program.cs",
+              "RelativeToolTip": "Presentation test\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:59:56.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\Teacher.cs",
+              "RelativeDocumentMoniker": "Presentation test\\Teacher.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\Teacher.cs",
+              "RelativeToolTip": "Presentation test\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T11:41:24.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\student.cs",
+              "RelativeDocumentMoniker": "Presentation test\\student.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\student.cs",
+              "RelativeToolTip": "Presentation test\\student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T08:01:30.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "person.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\person.cs",
+              "RelativeDocumentMoniker": "Presentation test\\person.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CSharp_tasks\\Presentation test\\Presentation test\\person.cs",
+              "RelativeToolTip": "Presentation test\\person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T08:00:30.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
