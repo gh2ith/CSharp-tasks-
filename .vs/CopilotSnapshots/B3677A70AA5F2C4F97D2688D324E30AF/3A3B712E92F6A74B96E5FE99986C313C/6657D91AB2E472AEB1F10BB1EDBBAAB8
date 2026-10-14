@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace task6
+{
+    internal class HealthPotion : ICollectible
+    {
+
+        public int PotionName { get; set; }
+        public void Collect()
+        {
+            Console.WriteLine("Health potion collected! Health restored.");
+        }
+
+        public int Use(int health)
+        {
+            try
+            {
+                health += 20;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error using health potion: {ex.Message}");
+            }
+            return health;
+        }
+    }
+}
